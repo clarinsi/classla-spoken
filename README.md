@@ -38,6 +38,22 @@ Lemmatizer training is covered in the train_lemmatizers.sh script.
 
 The evaluation results are these:
 
+| model | lemma |
+| - | - |
+| baseline | 97.22 |
+| baseline+ssj500 | 98.07 |
+| baseline+janes | 97.71 |
+| baseline+ssj500+janes | 98.09 |
+| classla_standard | 96.63 |
+| classla_nonstandard | 93.68 |
+
 ## Parser training
 
+Parser training is covered in the train_taggers.sh script.
 
+The evaluation results are these:
+| model | LAS | MLAS | BLEX |
+| - | - | - | - |
+| baseline | 67.11 | 55.71 | 61.59 |
+| baseline+ssj | 71.84 | 62.80 | 67.49 |
+| classla | 56.00 | 40.47 | 50.65 |
