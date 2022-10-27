@@ -29,3 +29,15 @@ cat conllu/ssj500-all.conllu >> conllu/sst+ssj500-train.conllu
 # merge janes and sst data
 cat conllu/janes-train.lc.conllu conllu/janes-dev.lc.conllu conllu/janes-test.lc.conllu > conllu/janes-all.conllu
 cat conllu/sst-train.conllu conllu/sst-train.conllu conllu/sst-train.conllu conllu/sst-train.conllu conllu/janes-all.conllu > conllu/sst+janes-train.conllu
+
+# merge all tagger data
+rm -rf conllu/sst+ssj500+janes-train.conllu
+for i in {1..20};do cat conllu/sst-train.conllu >> conllu/sst+ssj500+janes-train.conllu; done
+for i in {1..5};do cat conllu/janes-all.conllu >> conllu/sst+ssj500+janes-train.conllu; done
+cat conllu/ssj500-all.conllu >> conllu/sst+ssj500+janes-train.conllu
+
+# merge ssj and sst data for parsing
+cat conllu/ssj-train.lc.conllu conllu/ssj-dev.lc.conllu conllu/ssj-test.lc.conllu > conllu/ssj-all.conllu
+rm -rf conllu/sst+ssj-train.conllu
+for i in {1..12};do cat conllu/sst-train.conllu >> conllu/sst+ssj-train.conllu; done
+cat conllu/ssj-all.conllu >> conllu/sst+ssj-train.conllu
