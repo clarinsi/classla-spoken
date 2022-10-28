@@ -31,12 +31,12 @@ The evaluation results (evaluate taggers.sh) are these:
 
 | model | UPOS | XPOS | UFeats | AllTags |
 | - | - | - | - | - |
-| baseline | 94.95 | 89.61 | 89.81 | 87.18 |
-| baseline+ssj500 | 96.07 | 93.71 | 93.00 | 91.43 |
-| baseline+janes | 95.72 | 92.42 | 92.20 | 90.21 |
-| baseline+ssj500+janes | 96.03 | 94.03 | 93.21 | 91.42 |
-| classla_standard | 85.94 | 82.02 | 80.78 | 75.72 |
-| classla_nonstandard | 86.53 | 84.21 | 83.75 | 78.34 |
+| [baseline](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline.pos.conllu) | 94.95 | 89.61 | 89.81 | 87.18 |
+| [baseline+ssj500](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500.pos.conllu) | 96.07 | 93.71 | 93.00 | 91.43 |
+| [baseline+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+janes.pos.conllu) | 95.72 | 92.42 | 92.20 | 90.21 |
+| [baseline+ssj500+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500+janes.pos.conllu) | 96.03 | 94.03 | 93.21 | 91.42 |
+| [classla_standard](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.classla_standard.pos.conllu) | 85.94 | 82.02 | 80.78 | 75.72 |
+| [classla_nonstandard](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.classla_nonstandard.pos.conllu) | 86.53 | 84.21 | 83.75 | 78.34 |
 | stanza | 93.26 | 87.67 | 87.64 | 84.63 |
 
 ## Lemmatizer training
