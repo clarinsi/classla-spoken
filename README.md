@@ -47,12 +47,12 @@ The evaluation results (evaluate lemmatizers.sh) are these:
 
 | model | lemma |
 | - | - |
-| baseline | 97.22 |
-| baseline+ssj500 | 98.07 |
-| baseline+janes | 97.71 |
-| baseline+ssj500+janes | 98.09 |
-| classla_standard | 96.63 |
-| classla_nonstandard | 93.68 |
+| [baseline](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline.pos.lemma.conllu) | 97.22 |
+| [baseline+ssj500](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500.pos.lemma.conllu) | 98.07 |
+| [baseline+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+janes.pos.lemma.conllu) | 97.71 |
+| [baseline+ssj500+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500+janes.pos.lemma.conllu) | 98.09 |
+| [classla_standard](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.classla_standard.pos.lemma.conllu) | 96.63 |
+| [classla_nonstandard](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.classla_nonstandard.pos.lemma.conllu) | 93.68 |
 | stanza | 94.15 |
 
 ## Parser training
@@ -63,7 +63,7 @@ The evaluation results (evaluate_parsers.sh) are these:
 
 | model | LAS | MLAS | BLEX |
 | - | - | - | - |
-| baseline | 67.11 | 55.71 | 61.59 |
-| baseline+ssj | 72.14 | 63.26 | 67.97 |
-| classla | 56.00 | 40.47 | 50.65 |
+| [baseline](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline.pos.lemma.depparse.conllu) | 67.11 | 55.71 | 61.59 |
+| [baseline+ssj](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj.pos.lemma.depparse.conllu) | 72.14 | 63.26 | 67.97 |
+| [classla](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.classla.pos.lemma.depparse.conllu) | 56.00 | 40.47 | 50.65 |
 | stanza | 55.26 | 42.52 | 46.72 |
