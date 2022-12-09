@@ -31,10 +31,14 @@ The evaluation results (evaluate taggers.sh) are these:
 
 | model | UPOS | XPOS | UFeats | AllTags |
 | - | - | - | - | - |
-| [baseline](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline.pos.conllu) | 94.95 | 89.61 | 89.81 | 87.18 |
-| [baseline+ssj500](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500.pos.conllu) | 96.07 | 93.71 | 93.00 | 91.43 |
-| [baseline+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+janes.pos.conllu) | 95.72 | 92.42 | 92.20 | 90.21 |
-| [baseline+ssj500+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500+janes.pos.conllu) | 96.03 | 94.03 | 93.21 | 91.42 |
+| [baseline](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline.pos.conllu) | 95.44 | 91.74 | 87.57 | 85.98 |
+| baseline without lexicon | 94.72 | 89.55 | 89.73 | 87.15 |
+| [baseline+ssj500](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500.pos.conllu) | 96.20 | 94.09 | 89.90 | 88.53 |
+| baseline+ssj500 without lexicon | 96.10 | 93.85 | 93.25 | 91.58 |
+| [baseline+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+janes.pos.conllu) | 95.99 | 93.52 | 89.28 | 87.81 |
+| baseline+janes without lexicon | 95.66 | 92.63 | 92.46 | 90.30 |
+| [baseline+ssj500+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500+janes.pos.conllu) | 96.12 | 94.37 | 90.08 | 88.59 |
+| baseline+ssj500+janes | 95.95 | 94.02 | 93.46 | 91.48 |
 | [classla_standard](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.classla_standard.pos.conllu) | 85.94 | 82.02 | 80.78 | 75.72 |
 | [classla_nonstandard](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.classla_nonstandard.pos.conllu) | 86.53 | 84.21 | 83.75 | 78.34 |
 | stanza | 93.26 | 87.67 | 87.64 | 84.63 |
@@ -49,7 +53,7 @@ The evaluation results (evaluate lemmatizers.sh) are these:
 | - | - |
 | [baseline](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline.pos.lemma.conllu) | 97.22 |
 | [baseline+ssj500](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500.pos.lemma.conllu) | 98.07 |
-| [baseline+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+janes.pos.lemma.conllu) | 97.71 |
+| [baseline+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+janes.pos.lemma.conllu) | 97.71 | #97.93
 | [baseline+ssj500+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500+janes.pos.lemma.conllu) | 98.09 |
 | [classla_standard](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.classla_standard.pos.lemma.conllu) | 96.63 |
 | [classla_nonstandard](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.classla_nonstandard.pos.lemma.conllu) | 93.68 |
