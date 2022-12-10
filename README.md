@@ -51,11 +51,15 @@ The evaluation results (evaluate lemmatizers.sh) are these:
 
 | model | lemma |
 | - | - |
-| [baseline](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline.pos.lemma.conllu) | 97.22 |
-| [baseline+ssj500](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500.pos.lemma.conllu) | 98.07 |
-| [baseline+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+janes.pos.lemma.conllu) | 97.71 | #97.93
-| [baseline+ssj500+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500+janes.pos.lemma.conllu) | 98.09 |
-| [classla_standard](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.classla_standard.pos.lemma.conllu) | 96.63 |
+| [baseline](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline.pos.lemma.conllu) | 97.87 |
+| baseline without lexicon | 96.96 |
+| [baseline+ssj500](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500.pos.lemma.conllu) | 98.33 |
+| baseline+ssj500 | 98.07 |
+| [baseline+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+janes.pos.lemma.conllu) | 98.22 |
+| baseline+janes without lexicon | 97.63 |
+| [baseline+ssj500+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500+janes.pos.lemma.conllu) | 98.27 |
+| baseline+ssj500+janes without lexicon | 97.98 |
+| [classla_standard](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.classla_standard.pos.lemma.conllu) | 97.24 |
 | [classla_nonstandard](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.classla_nonstandard.pos.lemma.conllu) | 93.68 |
 | stanza | 94.15 |
 
@@ -68,6 +72,8 @@ The evaluation results (evaluate_parsers.sh) are these:
 | model | LAS | MLAS | BLEX |
 | - | - | - | - |
 | [baseline](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline.pos.lemma.depparse.conllu) | 67.11 | 55.71 | 61.59 |
+| baseline without lexicon | |
 | [baseline+ssj](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj.pos.lemma.depparse.conllu) | 72.14 | 63.26 | 67.97 |
+| baseline+ssj without lexicon |  |
 | [classla](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.classla.pos.lemma.depparse.conllu) | 56.00 | 40.47 | 50.65 |
 | stanza | 55.26 | 42.52 | 46.72 |
