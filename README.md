@@ -54,7 +54,7 @@ The evaluation results (evaluate lemmatizers.sh) are these:
 | [baseline](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline.pos.lemma.conllu) | 97.87 |
 | baseline without lexicon | 96.96 |
 | [baseline+ssj500](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500.pos.lemma.conllu) | 98.33 |
-| baseline+ssj500 | 98.07 |
+| baseline+ssj500 without lexicon | 98.07 |
 | [baseline+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+janes.pos.lemma.conllu) | 98.22 |
 | baseline+janes without lexicon | 97.63 |
 | [baseline+ssj500+janes](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj500+janes.pos.lemma.conllu) | 98.27 |
@@ -71,9 +71,9 @@ The evaluation results (evaluate_parsers.sh) are these:
 
 | model | LAS | MLAS | BLEX |
 | - | - | - | - |
-| [baseline](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline.pos.lemma.depparse.conllu) | 67.11 | 55.71 | 61.59 |
-| baseline without lexicon | |
-| [baseline+ssj](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj.pos.lemma.depparse.conllu) | 72.14 | 63.26 | 67.97 |
-| baseline+ssj without lexicon |  |
-| [classla](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.classla.pos.lemma.depparse.conllu) | 56.00 | 40.47 | 50.65 |
+| [baseline](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline.pos.lemma.depparse.conllu) | 66.11 | 53.29 | 60.78 |
+| baseline without lexicon | 66.72 | 55.53 | 60.99 |
+| [baseline+ssj](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.baseline+ssj.pos.lemma.depparse.conllu) | 71.13 | 59.78 | 66.77 |
+| baseline+ssj without lexicon | 72.16 | 63.37 | 67.81 |
+| [classla](https://github.com/clarinsi/classla-spoken/blob/main/out/sst-test.classla.pos.lemma.depparse.conllu) | 56.42 | 41.81 | 51.48 |
 | stanza | 55.26 | 42.52 | 46.72 |
